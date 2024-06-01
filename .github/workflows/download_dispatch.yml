@@ -22,7 +22,7 @@ on:
       IMAGE_SUFFIX:
         type: string
         description: 图片后缀（download.cache.suffix），默认为空，表示不做图片格式转换。可填入例如 'png' 'jpg'
-        default: ''
+        default: 'png'
         required: false
 
       DIR_RULE:
@@ -33,13 +33,13 @@ on:
 
       ZIP_NAME:
         type: string
-        default: 本子.tar.gz
+        default: benzi.zip
         description: 压缩文件名称
         required: false
 
       UPLOAD_NAME:
         type: string
-        default: Click me to download
+        default: download
         description: 上传文件名称
         required: false
 
